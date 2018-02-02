@@ -1,0 +1,37 @@
+
+class User ///ユーザクラス
+String userID;
+List<Permission> permissions;
+int point;
+
+class Permission  ///権限クラス
+String key;
+Object value;
+public boolean hasPermission(String key, Object value){
+
+}
+
+
+class DBUserUtil  ///ユーザーDB管理
+
+public static User searchUser(String id, List<Permission> permissions){
+ユーザ検索
+
+}
+public static boolean addUser(String id, String pw, List<Permission> permissions){
+ユーザ登録
+
+}
+public static boolean removeUser(String id, List<Permission> permissions){
+ユーザ削除
+
+}
+
+public static User login(String id, String pw){
+ログイン
+
+}
+public static boolean logout(User user){
+ログアウト
+
+}
